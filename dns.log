@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2018-10-12-15-50-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1388651869.848747	CgdIqC4Fo0hVir2Du2	95.136.242.99	37535	109.0.66.10	53	udp	2	0.033047	ncdn.nb6dsl.neufbox.neuf.fr	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	http.service-ncdn.sfr.net	47605.000000	F
+1388651869.882392	CztbRM3VE2BDHZeUC8	95.136.242.99	60284	109.0.66.10	53	udp	3	-	http.service-ncdn.sfr.net	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1388651869.915625	C0xrUw1GzPUyJ2lg73	95.136.242.99	54253	109.0.66.10	53	udp	4	0.032195	ncdn.nb6dsl.neufbox.neuf.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	http.service-ncdn.sfr.net,93.17.156.250,93.17.156.249	47758.000000,3444.000000,3444.000000	F
+1388651877.197950	CCAIfCTwnPj4VdcWl	95.136.242.99	55434	109.0.66.20	53	udp	2697	-	ipv4.icanhazip.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1388651877.197206	Cjxf1F4Zuepnd04Onh	95.136.242.99	32623	109.0.66.20	53	udp	22203	0.153808	ipv4.icanhazip.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.69.252.100,216.69.252.101	300.000000,300.000000	F
+1388651877.197452	CEMYdIiBdCCGVNsda	95.136.242.99	32623	109.0.66.10	53	udp	22203	0.225010	ipv4.icanhazip.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.69.252.101,216.69.252.100	300.000000,300.000000	F
+1388651885.834427	CGC6jy2n1tCw4TLIYi	95.136.242.99	13326	109.0.66.20	53	udp	12645	-	ipv6.icanhazip.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F
+1388651885.834938	C3BCOi1p83gKMaeWyh	95.136.242.99	26148	109.0.66.20	53	udp	62539	0.141306	ipv6.icanhazip.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2606:f200:0:7:bad:f00d:d00d:1,2606:f200:0:7:bad:f00d:d00d:2	300.000000,300.000000	F
+#close	2018-10-12-15-50-50

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2018-10-12-15-50-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1388651869.970634	CsBS5y4lEGnv1JBlC2	10.251.23.139	33198	93.17.156.250	80	1	GET	ncdn.nb6dsl.neufbox.neuf.fr	/nb6dsl_Vers 3.3.4_ter/nb6-3.3.4_ter.sha256sum	-	1.1	curl/7.33.0	0	497	200	OK	-	-	(empty)	-	-	-	-	-	-	FMwHy51E0Psmw7q4mb	-	text/plain
+1388651877.600764	CEaD133jQbv9uGE8sd	95.136.242.99	52573	216.69.252.100	80	1	GET	ipv4.icanhazip.com	/	-	1.1	curl/7.34.0	0	14	200	OK	-	-	(empty)	-	-	-	-	-	-	FxY7RD2F2VcqDmlBbj	-	text/plain
+#close	2018-10-12-15-50-50
