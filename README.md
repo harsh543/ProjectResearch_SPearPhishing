@@ -22,7 +22,20 @@ python -m smtpd -n -c DebuggingServer localhost:1025
 3.Bro tool execution for link logging with payload as twitter.pcap
 
 
-bro -r twitter.pcap smtp-url.bro 
-
+ bro -r nb6-http.pcap smpt-log-url.bro 
 
 Here twitter.pcap contains my urls and has the timestamp information.We can create this pcap using Wireshark
+
+
+4.Python create csv from log file
+
+python load_bro_log_csv.py
+
+5.Convert this to json file
+
+python load_bro_log_json.py
+
+5.Extract the url information and store
+
+
+python timstamp_url_extract.py
